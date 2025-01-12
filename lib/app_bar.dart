@@ -7,10 +7,6 @@ class AppBarView extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Container(
-      padding: const EdgeInsets.symmetric(
-        horizontal: 20,
-        vertical: 30,
-      ),
       color: Colors.white,
       child: Row(
         crossAxisAlignment: CrossAxisAlignment.center ,
